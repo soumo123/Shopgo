@@ -1,0 +1,40 @@
+
+.caegory-item:hover{
+color:tomato
+}
+
+.sidebar-title p{
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+ul.catagory-list li{
+    line-height: 36px;
+    position: relative;
+    padding-left: 28px;
+    border-bottom: 1px dashed #e1e1e1;
+    color:rgb(104, 101, 101);
+    cursor: pointer;
+    transition:0.6s all;
+}
+ul.catagory-list li:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: fontawesome;
+    content: "\f101";
+    color: #000
+
+}
+
+.sidebar{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    padding: 25px 15px;
+    height: 100vh;
+}
+

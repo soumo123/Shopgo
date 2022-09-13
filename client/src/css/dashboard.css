@@ -1,0 +1,40 @@
+.dashboard{
+    padding: 10px;
+    text-align: center,
+    
+}
+.productbox{
+    background: #ebeded;
+    padding: 22px;
+    border-radius: 8px;
+}
+.amout p, .productbox a p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000
+}
+.productitem{
+    column-gap: 23px;
+}
+.numbers p{
+    color: #fff !important;
+}
+.amout{
+    flex: 1;
+}
+.numbers{
+    width: 70px;
+    height: 70px;
+    background: #17abc3;
+    border-radius: 50%;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #2fe2ff;
+    font-size: 13px;
+    flex: 1;
+}
+
+.number{
+    flex: 1;
+}

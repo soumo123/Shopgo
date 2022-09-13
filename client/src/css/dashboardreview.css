@@ -1,0 +1,19 @@
+.productReviewsbox{
+    padding:30px
+}
+.productReviewsFormHeading{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.productReviewsForm label{
+    font-size: 16px;
+    margin: 11px 0;
+    color: #afacac;
+}
+.MuiButton-text{
+    background: #27292a;
+    color: #fff;
+    padding: 6px 21px;
+    border-radius: 5px;
+    border: 0;
+}

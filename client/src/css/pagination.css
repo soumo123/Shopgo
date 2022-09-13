@@ -1,0 +1,64 @@
+.paginationbox{
+    display:flex;
+    justify-content:center;
+    margin:6vmax
+}
+
+.pagination {
+    display:flex;
+    justify-content:center;
+    padding:0;
+    border: 1px solid #e1e1e1;
+}
+
+.page-item{
+    /* background-color: aliceblue; */ 
+    list-style: none;  
+    padding: 12px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.page-link{
+    border:0;
+    background:transparent;
+}
+
+
+
+
+.page-item:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+
+.page-item:last-child{
+    border-radius: 0 5px 5px 0;
+}
+
+.page-link{
+    text-decoration: none;
+    font:10 0.2vmax;
+    color:#000;
+    transition: all 0.3s;
+}
+
+.page-item:hover{
+    background-color: transparent;
+}
+
+.page-link:hover{
+    background-color: transparent;
+    color: #07539f;
+}
+
+
+.pageItemActive{
+    background-color:transparent;
+}
+
+.pageLinkActive{
+color:#298aeb;
+
+}

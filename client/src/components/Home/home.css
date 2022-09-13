@@ -1,0 +1,154 @@
+.homepage{
+    text-align: center;
+     
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: auto;
+    top: 41%;
+    left: 12%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-caption h3{
+    font-size: 44px;
+    font-weight: 800;
+}
+.carousel-caption h3 span{
+    font-weight: 300;
+}
+
+
+
+
+.products{
+    padding:56px 0;
+}
+.productcard{
+    margin: 0 6px 30px 0px;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+    flex: 1 1;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.productcard:hover{
+  
+    transform: translateY(-1vmax);
+}
+
+.productpage{
+    display: flex;
+}
+.productcard h4{
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.productcard p, .review{    
+    color: #000;
+}
+.price{
+    font-size: 19px;
+    color: #000;
+    font-weight: 600;
+}
+.product-img{
+    width: 100%;
+    height: 200px;
+    background: #e1e1e1;
+    padding: 13px;
+    border-radius: 8px;
+}
+
+.product-img img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.tab-content img{
+    object-fit: contain;
+}
+
+
+.rating{
+    border-bottom: 1px dashed #afa8a8;
+    border-top: 1px dashed #afa8a8;
+    padding: 11px;
+}
+
+.details-box{
+    margin-top:30px
+}
+
+.MuiRating-sizeLarge {
+    font-size: 17px !important;
+}
+
+.slider-img{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #e1e1e1;
+    padding: 12px;
+    border-radius: 12px;
+}
+.slider-img img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height:100%;
+    object-fit:contain;
+}
+.discount{
+    position: absolute;
+    top: 0;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 8px;
+    border-radius: 32px;
+    text-align: center;
+    color: #0c0000;
+}
+.discount p{
+    margin-bottom: 0;
+}
+
+.like{
+    background: #07539f
+}
+
+.carousel-item{
+    width: 100%;
+    height: 400px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+.dis{
+    color:#45456b
+}
+
+.ban{
+    color:#07539f
+
+}
+
